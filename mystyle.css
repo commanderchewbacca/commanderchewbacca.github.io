@@ -1,0 +1,66 @@
+
+
+
+body {
+     background-image: url("untitled12.png");
+     background-size: 50%;
+     background-repeat: no-repeat;
+
+
+
+  }
+
+.About {
+    position: relative;
+    left:50%;
+    width: 0;
+    height: 0;
+    border-style: inset;
+    border-width: 173.2px 100px 0 100px;
+    border-color: #4b6c8f transparent transparent transparent;
+
+  -webkit-transform: rotate(0deg);
+
+}
+
+
+.About p {
+  text-align: center;
+  top: -100px;
+  left: -47px;
+  position: relative;
+  width: 93px;
+  height: 93px;
+  margin: 0px;
+}
+
+
+.ao{
+  position: relative;
+    left: 50%;
+
+}
+
+.About {
+  position: absolute;
+    left: -86.6px;
+    width: 0;
+    height: 0;
+    border-style: inset;
+    border-width: 173.2px 100px 0 100px;
+    border-color: #4b6c8f transparent transparent transparent;
+
+  -webkit-transform: rotate(0deg);
+
+}
+
+
+.About p {
+  text-align: center;
+  top: -100px;
+  left: -47px;
+  position: relative;
+  width: 93px;
+  height: 93px;
+  margin: 0px;
+}
