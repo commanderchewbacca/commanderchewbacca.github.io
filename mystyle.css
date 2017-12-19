@@ -1,22 +1,56 @@
 
 
-
+html, body {height: 100%}
 body {
      background-image: url("untitled12.png");
      background-size: 50%;
      background-repeat: no-repeat;
+     background-color: #4b6c8f
 
 
 
   }
 
-.About {
+.po{
     position: relative;
-    left:50%;
+      top: 20%;
+      left: 50%;
+
+  }
+.Projects {
+    position: absolute;
+    top: 50px;
+    left: -5px;
     width: 0;
     height: 0;
     border-style: inset;
-    border-width: 173.2px 100px 0 100px;
+    border-width: 172px 100px 0 100px;
+    border-color: #4b6c8f transparent transparent transparent;
+
+  -webkit-transform: rotate(60deg);
+
+}
+
+
+.Projects p {
+  text-align: center;
+  top: -100px;
+  left: -47px;
+  position: relative;
+  width: 93px;
+  height: 93px;
+  margin: 0px;
+}
+
+
+
+.About {
+  position: absolute;
+    left: -86.6px;
+    width: 0;
+    height: 0;
+    border-style: inset;
+    border-width: 172px 100px 0 100px;
     border-color: #4b6c8f transparent transparent transparent;
 
   -webkit-transform: rotate(0deg);
@@ -35,27 +69,24 @@ body {
 }
 
 
-.ao{
-  position: relative;
-    left: 50%;
 
-}
 
-.About {
+.Art {
   position: absolute;
-    left: -86.6px;
+    left: -167.3px;
+    top: 50px;
     width: 0;
     height: 0;
     border-style: inset;
-    border-width: 173.2px 100px 0 100px;
+    border-width: 172px 100px 0 100px;
     border-color: #4b6c8f transparent transparent transparent;
 
-  -webkit-transform: rotate(0deg);
+  -webkit-transform: rotate(-60deg);
 
 }
 
 
-.About p {
+.Art p {
   text-align: center;
   top: -100px;
   left: -47px;
