@@ -8,16 +8,20 @@ body {
      background-color: #4b6c8f
 
 
-
   }
+.mainstructure{
 
+}
 .po{
+
     position: relative;
-      top: 20%;
+      top: 35%;
       left: 50%;
+
 
   }
 .Projects {
+  overflow:hidden;
     position: absolute;
     top: 50px;
     left: -5px;
@@ -33,6 +37,7 @@ body {
 
 
 .Projects p {
+
   text-align: center;
   top: -100px;
   left: -47px;
@@ -45,6 +50,7 @@ body {
 
 
 .About {
+  overflow:hidden;
   position: absolute;
     left: -86.6px;
     width: 0;
@@ -59,6 +65,7 @@ body {
 
 
 .About p {
+
   text-align: center;
   top: -100px;
   left: -47px;
@@ -67,11 +74,21 @@ body {
   height: 93px;
   margin: 0px;
 }
+.About:hover {
+
+  border-width: 258px 150px 0 150px;
+  border-color: #4b6c8f transparent transparent transparent;
+  top: -50px;
+
+
+}
 
 
 
 
 .Art {
+  overflow:hidden;
+
   position: absolute;
     left: -167.3px;
     top: 50px;
@@ -81,7 +98,20 @@ body {
     border-width: 172px 100px 0 100px;
     border-color: #4b6c8f transparent transparent transparent;
 
+    transition: border-width 0.5s, top 0.5s, left 0.5s;
+
+
+
+
   -webkit-transform: rotate(-60deg);
+
+}
+.Art:hover {
+
+  border-width: 258px 150px 0 150px;
+  border-color: #4b6c8f transparent transparent transparent;
+  top: -10px;
+  left: -250.5px;
 
 }
 
