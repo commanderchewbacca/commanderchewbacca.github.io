@@ -1,6 +1,7 @@
 
 
 html, body {height: 100%}
+html, body {width: 100%}
 body {
      background-image: url("untitled12.png");
      background-size: 50%;
@@ -28,6 +29,8 @@ body {
     width: 0;
     height: 0;
     border-style: inset;
+    border-top: 10% solid #4b6c8f
+
     border-width: 172px 100px 0 100px;
     border-color: #4b6c8f transparent transparent transparent;
 
