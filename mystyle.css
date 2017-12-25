@@ -22,7 +22,6 @@ body {
 
   }
 .Projects {
-  overflow:hidden;
     position: absolute;
     top: 50px;
     left: -5px;
@@ -68,7 +67,7 @@ body {
 
 
 .About p {
-
+blackground: black;
   text-align: center;
   top: -100px;
   left: -47px;
