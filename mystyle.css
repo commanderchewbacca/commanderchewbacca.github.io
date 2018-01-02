@@ -14,7 +14,7 @@ body {
 .po{
 
     position: relative;
-      top: 35%;
+      top: 50%;
       left: 50%;
 
 
@@ -25,7 +25,7 @@ body {
   height: 0;
   border-style: inset;
   border-width: 172px 100px 0 100px;
-  border-color: #4b6c8f #4b6c8f #4b6c8f #4b6c8f;
+  border-color: #4b6c8f transparent transparent transparent;
   position: absolute;
 
 
@@ -38,7 +38,7 @@ body {
 .po > div:nth-child(1){
 
   top: 50px;
-  left: 86px;
+  left: -20px;
   transform-origin:50 -5;
   -ms-transform-origin:50 -5;
   -webkit-transform-origin:50 -5;
@@ -54,7 +54,7 @@ body {
 
 .po > div:nth-child(2){
 
-  left: 0px;
+  left: -100px;
   transform-origin:0 -86.6;
   -ms-transform-origin:0 -86.6;
   -webkit-transform-origin:0 -86.6;
@@ -72,7 +72,7 @@ body {
   transform-origin:50 -167.3;
   -ms-transform-origin:50 -167.3;
   -webkit-transform-origin:50 -167.3;
-  left: -86px;
+  left: -180px;
   top: 50px;
   -ms-transform: rotate(-60deg) ;
   -webkit-transform: rotate(-60deg);
@@ -97,14 +97,14 @@ body {
 }
 .contact{
   position: relative;
-    top: 50%;
+    top: 71%;
     left: 50%;
 }
 .border {
   position: relative;
-  left: -256px;
-  width:512px;
-  height:10px;
+  left: -203px;
+  width: 406px;
+  height: 10px;
   background-color: skyblue;
 
 
