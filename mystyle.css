@@ -96,17 +96,21 @@ body {
   margin: 0px;
 }
 .contact{
-  position: relative;
-    top: 71%;
-    left: 50%;
+  position: absolute;
+    
 }
 .border {
-  position: relative;
+	
+  position: absolute;
+  top: 185px;
   left: -203px;
   width: 406px;
   height: 10px;
   background-color: skyblue;
-
-
-
+  text-align: center;
+}
+.contactinfo{
+	width: 300px;
+	align-content: center
+	
 }
