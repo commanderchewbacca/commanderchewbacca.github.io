@@ -3,29 +3,25 @@
 html, body {height: 100%}
 html, body {width: 100%}
 body {
-
-     background-color: #4b6c8f
-
-
+	overflow-y: scroll;
+	overflow-x: hidden;
   }
 .mainstructure{
 
 }
 .po{
-
-    position: relative;
+	
+    position: absolute;
       top: 50%;
       left: 50%;
+}
 
-
-
-  }
 .triangle{
   width: 0;
   height: 0;
   border-style: inset;
   border-width: 172px 100px 0 100px;
-  border-color: #4b6c8f transparent transparent transparent;
+  border-color: #F7F5E6 transparent transparent transparent;
   position: absolute;
 
 
@@ -35,6 +31,7 @@ body {
 
 
 }
+
 .po > div:nth-child(1){
 
   top: 50px;
@@ -52,7 +49,7 @@ body {
 
 }
 
-.po > div:nth-child(2){
+.po > a:nth-child(2){
 
   left: -100px;
   transform-origin:0 -86.6;
@@ -62,7 +59,7 @@ body {
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg) ;
 }
-.po > div:nth-child(2):hover{
+.po > a:nth-child(2):hover{
 
   transform:  translate(0%, -10%) rotate(0deg) ;
 
@@ -90,13 +87,14 @@ body {
   text-align: center;
   top: -100px;
   left: -47px;
-  position: relative;
+  position: absolute;
   width: 93px;
   height: 93px;
   margin: 0px;
 }
 .contact{
   position: absolute;
+	z-index: 1;
     
 }
 .border {
@@ -106,11 +104,18 @@ body {
   left: -203px;
   width: 406px;
   height: 10px;
-  background-color: skyblue;
+  background-color: #EEB6B7;
   text-align: center;
 }
 .contactinfo{
 	width: 300px;
 	align-content: center
+	
+}
+#background{
+	z-index: -1;
+	position: absolute;
+	left:-1730px;
+	top:-1245px;
 	
 }
