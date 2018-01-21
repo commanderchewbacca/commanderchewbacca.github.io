@@ -1,0 +1,75 @@
+/* CSS Document */
+
+body{
+	height:100%;
+}
+
+
+#background {
+	
+	height:100%;
+	
+	
+	float: right;
+	-webkit-clip-path: polygon( 100% 0, 100% 0%, 100% 100%, 0% 100%, 300px 370px, 100px 0);
+	clip-path: polygon( 100% 0, 100% 0%, 100% 100%, 0% 100%, 300px 370px, , 100px 0);
+	shape-outside: polygon( 100% 0, 100% 0%, 100% 100%, 0% 100%, 300px 370px, 100px 0);
+	margin-left:25px;
+
+}
+
+
+	    
+#po{
+	
+	width:800px;
+	margin: auto;
+	
+	
+	height:100%;
+	background-color:
+}
+
+.triangle{
+  z-index: 1;
+  top:425px;
+  left:420px;
+  width: 0;
+  height: 0;
+  border-style: inset;
+  border-width: 172px 100px 0 100px;
+  border-color: #F7F5E6 transparent transparent transparent;
+  position: relative;
+  transition:all 1s;
+  -webkit-transition:all 1s;
+  -moz-transition:all 1s;
+
+
+}
+.triangle p {
+  position:absolute;
+  text-align: center;
+  top: -100px;
+  left: -47px;
+  width: 93px;
+  height: 93px;
+  margin: 0px;
+}
+.triangle:hover{
+	top:405px;
+}
+.rightTriangle {
+	 width: 150px;
+    height: 300px;
+    
+  	float: right;
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 74%, 100% 100%, 68% 100%, 0 100%, 100% 74%, 100% 31%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 74%, 100% 100%, 68% 100%, 0 100%, 100% 74%, 100% 31%, 0 0);
+    -webkit-shape-outside:polygon(50% 0%, 100% 0, 100% 74%, 100% 100%, 68% 100%, 0 100%, 100% 74%, 100% 31%, 0 0);
+	shape-outside: polygon( 100% 0, 100% 0%, 100% 100%, 0% 100%, 250px 500px, 0 0);
+
+
+}
+.text{
+	
+}
