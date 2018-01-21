@@ -12,7 +12,7 @@ body {
 .po{
 	
     position: absolute;
-      top: 50%;
+      top: 45%;
       left: 50%;
 }
 
@@ -32,7 +32,7 @@ body {
 
 }
 
-.po > div:nth-child(1){
+.po > a:nth-child(1){
 
   top: 50px;
   left: -20px;
@@ -43,7 +43,7 @@ body {
   -webkit-transform: rotate(60deg);
   transform: rotate(60deg) ;
 }
-.po > div:nth-child(1):hover{
+.po > a:nth-child(1):hover{
 
   transform:  translate(10%, -10%) rotate(60deg) ;
 
@@ -65,7 +65,7 @@ body {
 
 }
 
-.po > div:nth-child(3){
+.po > a:nth-child(3){
   transform-origin:50 -167.3;
   -ms-transform-origin:50 -167.3;
   -webkit-transform-origin:50 -167.3;
@@ -77,7 +77,7 @@ body {
 
 }
 
-.po > div:nth-child(3):hover{
+.po > a:nth-child(3):hover{
 
   transform:  translate(-10%, -10%) rotate(-60deg) ;
 
@@ -115,7 +115,7 @@ body {
 #background{
 	z-index: -1;
 	position: absolute;
-	left:-1730px;
+	left:-1805px;
 	top:-1245px;
 	
 }
