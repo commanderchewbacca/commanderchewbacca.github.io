@@ -1,2 +1,151 @@
-/* CSS Document */
+
+body {
+	height: 100%;
+	width: 100%;
+	background-color: lightblue;
+
+		
+	
+	
+}
+
+
+.triangle{
+	position: absolute;
+  z-index: 1;
+  top:12%;
+  left:0%;
+  width: 0;
+  height: 0;
+  border-style: inset;
+  border-width: 172px 100px 0 100px;
+  border-color: #F7F5E6 transparent transparent transparent;
+  
+  -ms-transform: rotate(60deg) ;
+  -webkit-transform: rotate(60deg);
+  transform: rotate(90deg) ;
+
+  transition:all 1s;
+  -webkit-transition:all 1s;
+  -moz-transition:all 1s;
+
+
+
+}
+.triangle p {
+	
+  position:absolute;
+  text-align: center;
+ 
+  top: -100px;
+  left: -47px;
+  width: 93px;
+  height: 93px;
+  margin: 0px;
+	
+}
+.triangle:hover{
+	transform:  translate(10%, 0%) rotate(90deg);
+	z-index: 2;
+}
+.rightTriangle {
+	position:relative;
+	width: 100%;
+    height: 500px;
+    
+  	float: right;
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 80%, 100% 100%, 80% 100%, 0 100%, 100% 80%, 100% 20%, 0 0);
+    clip-path:  polygon(50% 0%, 100% 0, 100% 80%, 100% 100%, 80% 100%, 0 100%, 100% 80%, 100% 20%, 0 0);
+    -webkit-shape-outside: polygon(50% 0%, 100% 0, 100% 80%, 100% 100%, 80% 100%, 0 100%, 100% 80%, 100% 20%, 0 0);
+	shape-outside:  polygon(50% 0%, 100% 0, 100% 80%, 100% 100%, 80% 100%, 0 100%, 100% 80%, 100% 20%, 0 0);
+	background-color: lightblue;
+	
+
+}
+
+
+.leftTriangle{
+	position: relative;
+		
+	width: 100%;
+    height: 500px;
+	float: left;
+	
+	
+	
+	-webkit-clip-path: polygon(0 0, 100% 0, 0 20%, 0 80%, 100% 100%, 0 100%, 0 50%);
+	clip-path: polygon(0 0, 100% 0, 0 20%, 0 80%, 100% 100%, 0 100%, 0 50%);
+	-webkit-shape-outside: polygon(0 0, 100% 0, 0 20%, 0 80%, 100% 100%, 0 100%, 0 50%);
+	shape-outside:  polygon(0 0, 100% 0, 0 20%, 0 80%, 100% 100%, 0 100%, 0 50%);
+	
+	background-color: lightblue;
+	
+	
+	
+	
+	
+	
+}
+.text{
+	
+}
+
+#information{
+	width:500px;
+	position:relative;
+	left:10%;
+	
+	
+}
+
+.project{
+	position:relative;
+	height:500px;
+	min-width: :400px;
+	width:100%;
+	background-color: gray;
+	overflow: hidden;
+	
+}
+#leftside{
+	position:absolute;
+	width: 40%;
+	left: 50%;
+	top:12%;
+	
+	
+	overflow: auto;
+	
+	
+	
+}
+
+.imgplace{
+	position:absolute;
+	top: 12%;
+	left:10%;
+	width: 35%;
+	height: 100%;
+	overflow:auto;
+	z-index: 1;
+	
+	
+	
+	
+}
+.projimage{
+	width:100%;
+}
+.text{
+	margin:10px;
+	
+	
+}
+#displayText{
+	
+	margin: 10px;
+}
+#information{
+	z-index: 2;
+}
 
