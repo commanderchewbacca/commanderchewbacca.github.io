@@ -5,6 +5,7 @@ html, body {width: 100%}
 body {
 	overflow-y: scroll;
 	overflow-x: hidden;
+	
   }
 .mainstructure{
 
@@ -21,8 +22,9 @@ body {
   height: 0;
   border-style: inset;
   border-width: 172px 100px 0 100px;
-  border-color: #F7F5E6 transparent transparent transparent;
+  border-color: #74AEBF transparent transparent transparent;
   position: absolute;
+  border-opacity: 50%;
   
 
   transition:all 1s;
@@ -82,6 +84,8 @@ body {
   transform:  translate(-10%, -10%) rotate(-60deg) ;
 
 }
+
+
 .triangle p {
 
   text-align: center;
@@ -95,7 +99,8 @@ body {
 .contact{
   position: absolute;
 	z-index: 1;
-    
+	transition-duration: 1s;
+   
 }
 .border {
 	
@@ -109,13 +114,32 @@ body {
 }
 .contactinfo{
 	width: 300px;
-	align-content: center
-	
+	align-content: center;
+		
 }
 #background{
 	z-index: -1;
 	position: absolute;
-	left:-1805px;
+	left:-1730px;
 	top:-1245px;
 	
 }
+h1{ margin: 10px;
+	font-family: 'Anton', sans-serif;
+	color: #273A40;
+	font-size: 70px
+}
+h3{ margin: -15px;
+	font-family: 'Julius Sans One', sans-serif;
+	font-color: #273A40;
+	font-size: 15px;
+	
+}
+p{
+    font-family: 'Julius Sans One', sans-serif;
+	color:#7BAEBF;
+	
+	
+}
+
+

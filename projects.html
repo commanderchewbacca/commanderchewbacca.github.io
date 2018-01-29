@@ -4,13 +4,14 @@
 <meta charset="utf-8">
 <title>Project</title>
 <link rel="stylesheet" type="text/css" href="projects.css">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Bree+Serif|Julius+Sans+One|Magra" rel="stylesheet">
 </head>
 
 <body>
 	
-
+	
 	<div id="information">
-			<h1>Projects</h1>                                                                                                                                                                                              <p>Github: commanderchewbacca</p>
+			<h1>Projects</h1>                                                                                                                                <a href="https://github.com/commanderchewbacca" id="git">Github: commanderchewbacca</a>
 		
 	</div>
 <a href="main.html" class = "triangle">
@@ -19,14 +20,17 @@
     </p>
 	</a>
 	<div class="imgplace"><div id="toggleText" style="display: none"><img class="projimage" src="PCS project.jpg"></div></div>
-	<div id=leftside>
+	
+	<div class="vidplace"><div id="toggleText2" style="display: none"><iframe allowfullscreen="true" src="https://www.youtube.com/embed/lrJRbHMuNSI"></iframe></div></div>
+	<div id="leftside">
 	<div class="project">
 <div class="rightTriangle" ></div>
 	
 	<div class="text">
-		
-			<h2>Political Computer Science at Berkeley</h2>
-			<h3>Campaign Finance Research </h3>
+			<br>
+			<h2>PCS Campaign Finance Research</h2>
+			
+			<p>2017 |<a id="displayText" href="javascript:toggle();">show project</a> </p>
 			<p>-Special topic research on the correlation between small individual donations(below $200) and candidate polarity.</p>
 			<p>-Cleaned bulk data of each decalred individual donations from Opensecrets.org by using Pandas, stitching it with CSV contining candidate data from the congressional website, and plotting it against the Candidate Polarity Index(measured by voting patterns of said candidate)</p>
 			<p>-exposure to and learned basic dada analysis concepts and how to use various Python libraries.</p>
@@ -34,46 +38,76 @@
 	</div>	
 
  
-<a id="displayText" href="javascript:toggle();">show project</a>
+
 
 	
 		
 	</div>
 		
 		<div class="project">
+			
 <div class="leftTriangle" ></div>
+			
 	
-	<div class="text">
-			<p>Him rendered may attended concerns jennings reserved now. Sympathize did now preference unpleasing mrs few. Mrs for hour game room want are fond dare. For detract charmed add talking age. Shy resolution instrument unreserved man few. She did open find pain some out. If we landlord stanhill mr whatever pleasure supplied concerns so. Exquisite by it admitting cordially september newspaper an. Acceptance middletons am it favourable. It it oh happen lovers afraid. 
-
-Fat new smallness few supposing suspicion two. Course sir people worthy horses add entire suffer. How one dull get busy dare far. At principle perfectly by sweetness do. As mr started arrival subject by believe. Strictly numerous outlived kindness whatever on we no on addition. 
-
-		</p>
+	<div class="ltext">
+			
+		<br>
+			<h2>PLANNIT</h2>
+		<p>| 2017</p>
+	
+			<p>-Ongoing continuation of the Cal Hacks 4.0 project</p>
+			<p>-Web based social networking website for sharing schedules and daily events</p>
+			<p>-Helped with front-end design with basic website layout, will help with backend implementation the coming months</p>
+</p>
+			
 	</div>	
+	
 	</div>
 		
 		<div class="project">
 <div class="rightTriangle" ></div>
 	
 	<div class="text">
-			<p>Him rendered may attended concerns jennings reserved now. Sympathize did now preference unpleasing mrs few. Mrs for hour game room want are fond dare. For detract charmed add talking age. Shy resolution instrument unreserved man few. She did open find pain some out. If we landlord stanhill mr whatever pleasure supplied concerns so. Exquisite by it admitting cordially september newspaper an. Acceptance middletons am it favourable. It it oh happen lovers afraid. 
-
-Fat new smallness few supposing suspicion two. Course sir people worthy horses add entire suffer. How one dull get busy dare far. At principle perfectly by sweetness do. As mr started arrival subject by believe. Strictly numerous outlived kindness whatever on we no on addition. 
-
-		</p>
+			<br>
+			<h2>GITLET </h2>
+		<p>2017 |</p>
+			<p> -CS61B(Data Structures) final individual project, with no skeleton code</p>
+			<p>-Java program that imitates the basic function of Git, with remote functions implemented </p>
+			<p>-Implemented using SHA-1 code as well as serialization, with special emphasis on runtime and space efficiency</p>
+			
 	</div>	
 	</div>
-		
-		
-		<div class="video-background">
-    <div class="video-foreground">
-      <iframe src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
+	
+		<div class="project">
+			
+<div class="leftTriangle" ></div>
+			
+	
+	<div class="ltext">
+			
+		<br>
+	  <h2>The Duel</h2>
+		<p><a id="displayText2" href="javascript:toggle2();">show project</a> | 2016-2017</p>
+	
+			<p>-Group project, project director</p>
+			<p>-3D animation short for the UC Berkeley Undergraduate Graphics Group</p>
+			<p>-responsible for the story, modeling, and animation</p>
+	  <p>-project done in MAYA</p>
+			
+	</div>	
+	
+	</div>
 
+		
+	
+		
+		
 	
 	
 	
+	</div>
+	
+	<img id="background" src="website1.jpg">
 	</body>
 	</html>
 		<script language="javascript"> 
@@ -82,11 +116,26 @@ function toggle() {
 	var text = document.getElementById("displayText");
 	if(ele.style.display == "block") {
     		ele.style.display = "none";
-		text.innerHTML = "show";
+		text.innerHTML = "show project";
   	}
 	else {
 		ele.style.display = "block";
-		text.innerHTML = "hide";
+		text.innerHTML = "hide project";
+	}
+} 
+</script>
+
+<script language="javascript"> 
+function toggle2() {
+	var ele = document.getElementById("toggleText2");
+	var text = document.getElementById("displayText2");
+	if(ele.style.display == "block") {
+    		ele.style.display = "none";
+		text.innerHTML = "show project";
+  	}
+	else {
+		ele.style.display = "block";
+		text.innerHTML = "hide project";
 	}
 } 
 </script>

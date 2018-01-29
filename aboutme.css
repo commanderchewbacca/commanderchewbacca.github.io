@@ -38,7 +38,7 @@ body{
   height: 0;
   border-style: inset;
   border-width: 172px 100px 0 100px;
-  border-color: #F7F5E6 transparent transparent transparent;
+  border-color: #F2C7C8 transparent transparent transparent;
   position: relative;
   transition:all 1s;
   -webkit-transition:all 1s;
@@ -47,13 +47,17 @@ body{
 
 }
 .triangle p {
+	color: #273A40;
   position:absolute;
   text-align: center;
-  top: -100px;
+  font-family: 'Julius Sans One', sans-serif;
+font-size:25px;
+  top: -110px;
   left: -47px;
   width: 93px;
   height: 93px;
   margin: 0px;
+	
 }
 .triangle:hover{
 	top:405px;
@@ -75,6 +79,40 @@ body{
 	
 }
 
+
+.lftbk{
+	
+	
+	
+	z-index: 0;
+	height:500px;
+	min-width: :400px;
+	width:100%;
+	background-color:black;
+	
+	
+}
+
+
+h1{ margin: 10px;
+	font-family: 'Anton', sans-serif;
+	color: #273A40;
+	font-size: 50px;
+}
+
+
+h2{
+	font-family: 'Anton', sans-serif;
+	color: #273A40;
+	
+	
+	
+	
+}
+p{ margin-left: 10px;
+   font-family: 'Magra', sans-serif;
+	
+}
 
 
 #information{
