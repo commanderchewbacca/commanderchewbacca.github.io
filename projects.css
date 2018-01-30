@@ -12,9 +12,9 @@ body {
 
 
 .triangle{
-	position: absolute;
+  position: absolute;
   z-index: 1;
-  top:12%;
+  top:17%;
   left:0%;
   width: 0;
   height: 0;
@@ -48,7 +48,7 @@ font-size:25px;
 }
 .triangle:hover{
 	transform:  translate(10%, 0%) rotate(90deg);
-	z-index: 3;
+	
 }
 .rightTriangle {
 	position:relative;
@@ -119,7 +119,7 @@ font-size:25px;
 	position:absolute;
 	width: 40%;
 	left: 50%;
-	top:12%;
+	top:15%;
 	
 	
 	
@@ -135,7 +135,7 @@ font-size:25px;
 
 .imgplace{
 	position:absolute;
-	top: 12%;
+	top: 15%;
 	left:12%;
 	width: 35%;
 	height: 100%;
@@ -146,6 +146,7 @@ font-size:25px;
 .vidplace{
 	width:35%;
 	left:12%;
+	top:1600px;
 	position:relative;
 	padding-bottom:18.4275%;
 	padding-top:30px;
