@@ -141,5 +141,24 @@ p{
 	
 	
 }
+.note {width: 406px;
+  height: 20px;
+	
+	
+	
+}
+.note p{
+	margin-top: 20px;
+	font-size: 12px ;
+	text-decoration-color:red;
+	text-decoration: overline;
+	
+}
 
+.note:hover + .support{
+	display:block;
+}
+.support{
+	display:none;
+}
 
